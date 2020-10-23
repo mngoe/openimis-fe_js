@@ -22,6 +22,15 @@ foreach($webRoot in $WebDirectories){
 		| Out-File -Encoding UTF8 /inetpub/wwwroot/$webRootName/Web.config;`
 		Write-Output ('Pointing to legacy openIMIS on https://'+$Env:LEGACY_OPENIMIS_HOST)
     }
+	if (Test-Path /inetpub/wwwroot/$webRootName/appsettings.Production.json){
+		(Get-Content /inetpub/wwwroot/$webRootName/appsettings.Production.json.sample)`
+		-replace '\[DatabaseIPAdress\]',$DB_HOSTNAME`
+		-replace '\[ImisUserId\]',$DB_USER`
+		-replace '\[IMISDB\]',$DB_NAME`
+		-replace '\[ImisUserPassword\]',$DB_PASSWORD`
+		| Out-File -Encoding UTF8 /inetpub/wwwroot/$webRootName/appsettings.Production.json;`
+		Write-Output ('Pointing to legacy openIMIS on https://'+$Env:LEGACY_OPENIMIS_HOST)
+    }
 }
 
 Write-Output "launch IIS"

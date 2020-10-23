@@ -33,15 +33,19 @@ ARG WINDOWS_BASE="mcr.microsoft.com/dotnet/framework/aspnet"
 
 
 FROM "${WINDOWS_BASE}:${WINDOWS_VERSION}"
-ARG OPENIMIS_VERSION="1.4.1" 
+ARG OPENIMIS_VERSION="1.5.0" 
+ARG RESTAPI_VERSION="1.0.0"
+ARG PCY_RENW_VERSION="1.2.0" 
 LABEL vendor="openIMIS"\
       maintainer="Patrick Delcroix <patrick.delcroix@swisspth.ch>"\
 	  org.openimis.webapp.is-beta= \
       org.openimis.webapp.is-production="" \
       org.openimis.webapp.version="${OPENIMIS_VERSION}" 
+	 
 ADD https://github.com/openimis/web_app_vb/releases/download/v${OPENIMIS_VERSION}/openIMIS_Web_App_x64_v${OPENIMIS_VERSION}.zip /temp/openIMIS.zip
-ADD "https://github.com/openimis/web_service_vb/releases/download/v1.2.1/openIMIS_Web_Services_v1.2.1.zip" /temp/Service.zip
-# ADD "https://github.com/openimis/policy_renewal_service_vb/releases/download/v1.2.0/ImisPolicyRenewalSetup.zip" /temp/Renewal.zip
+#ADD "https://github.com/openimis/web_service_vb/releases/download/v1.2.1/openIMIS_Web_Services_v1.2.1.zip" /temp/Service.zip
+ADD "https://github.com/openimis/rest_api_c-sharp/releases/download/v${RESTAPI_VERSION}/openIMIS_REST_API_x64_v${RESTAPI_VERSION}.zip" /temp/rest.zip
+ADD "https://github.com/openimis/policy_renewal_service_vb/releases/download/${PCY_RENW_VERSION}/ImisPolicyRenewalSetup.zip" /WService/Renewal.zip
 # ADD "https://github.com/openimis/assign_photo_service_vb/releases/download/v1.2.0/AssignPhotosSetup.zip" /temp/photo.zip
 # ADD "https://github.com/openimis/feedback_prompt_service_vb/releases/download/v1.2.0/ImisFeedbackPromptSetup.zip" /temp/feedback.zip
 ADD "https://github.com/shibayan/iislua/releases/download/v0.6.1/iislua_x64.msi" /temp/iislua_x64.msi

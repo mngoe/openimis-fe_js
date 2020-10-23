@@ -42,6 +42,15 @@ foreach($Zip in $ZipFiles){
       Move-Item -Path "/temp/$ZipName$subdirectoryPath/*" -Destination "/inetpub/wwwroot/$ZipName/"
       Write-Output "Create a copy of the $ZipName config files"
       Copy-Item "/inetpub/wwwroot/$ZipName/Web.config" -Destination "/inetpub/wwwroot/$ZipName/Web.config.sample"
+   }elseif(Test-Path "/temp/$ZipName$subdirectoryPath/appsettings.Production.json"){
+      New-Item -ItemType directory -Path /inetpub/wwwroot/$ZipName
+      New-WebApplication -Name $ZipName -Site $SiteName -PhysicalPath C:\inetpub\wwwroot\$ZipName -ApplicationPool DefaultAppPool
+      Move-Item -Path "/temp/$ZipName$subdirectoryPath/*" -Destination "/inetpub/wwwroot/$ZipName/"
+      Write-Output "Create a copy of the $ZipName config files"
+      (Get-Content /inetpub/wwwroot/$ZipName$subdirectoryPath/appsettings.Production.json)`
+			-Replace "Server=Server;Database=IMIS;User ID=User;Password=Password",`
+			"Source=[DatabaseIPAdress];Initial Catalog=IMIS;User ID=[ImisUserId];Password=[ImisUserPassword]" `
+			| Out-File "/inetpub/wwwroot/$ZipName/appsettings.Production.json.sample"
    }else{
       Write-Output "Move $ZipName in the service directory"
       New-Item -ItemType directory -Path /service/$ZipName
