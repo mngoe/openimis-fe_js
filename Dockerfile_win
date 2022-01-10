@@ -45,7 +45,7 @@ LABEL vendor="openIMIS"\
 ADD https://github.com/openimis/web_app_vb/releases/download/v${OPENIMIS_VERSION}/openIMIS_Web_App_x64_v${OPENIMIS_VERSION}.zip /temp/openIMIS.zip
 #ADD "https://github.com/openimis/web_service_vb/releases/download/v1.2.1/openIMIS_Web_Services_v1.2.1.zip" /temp/Service.zip
 ADD "https://github.com/openimis/rest_api_c-sharp/releases/download/v${RESTAPI_VERSION}/openIMIS_REST_API_x64_v${RESTAPI_VERSION}.zip" /temp/rest.zip
-ADD "https://github.com/openimis/policy_renewal_service_vb/releases/download/${PCY_RENW_VERSION}/ImisPolicyRenewalSetup.zip" /WService/Renewal.zip
+ADD "https://github.com/openimis/policy_renewal_service_vb/releases/download/v${PCY_RENW_VERSION}/ImisPolicyRenewalSetup.zip" /WService/Renewal.zip
 # ADD "https://github.com/openimis/assign_photo_service_vb/releases/download/v1.2.0/AssignPhotosSetup.zip" /temp/photo.zip
 # ADD "https://github.com/openimis/feedback_prompt_service_vb/releases/download/v1.2.0/ImisFeedbackPromptSetup.zip" /temp/feedback.zip
 ADD "https://github.com/shibayan/iislua/releases/download/v0.6.1/iislua_x64.msi" /temp/iislua_x64.msi
