@@ -55,10 +55,6 @@
 			"npm": "@openimis/fe-contribution@latest"
 		},
 		{
-			"name": "ClaimModule",
-			"npm": "@openimis/fe-claim@latest"
-		},
-		{
 			"name": "ClaimBatchModule",
 			"npm": "@openimis/fe-claim_batch@latest"
 		},
@@ -101,10 +97,6 @@
 		{
 			"name": "CmrCsModule",
 			"npm": "@openimis/fe-cmr-cs@link:latest"
-		},
-		{
-			"name": "MedicalModule",
-			"npm": "@openimis/fe-medical@link:latest"
 		}
 	]
 }

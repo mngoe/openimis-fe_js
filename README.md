@@ -267,3 +267,11 @@ Note: This image only provides the openimis frontend server. The full openIMIS d
        }
 ```
 - this approach overwrites default `en` language translations into `en-gm` (Gambian English) translations without adding new language on database level and without changing 'locales' in 'openimis.json' and 'locales.js' file both on assembly frontend module (openimis-fe_js). 
+
+
+
+## Deployment script :
+
+yarn load-config
+yarn install
+yarn start
