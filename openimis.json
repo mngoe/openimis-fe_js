@@ -104,7 +104,7 @@
 		},
 		{
 			"name": "MedicalModule",
-			"npm": "@openimis/fe-medical@link:latest"
+			"npm": "@openimis/fe-medical@latest"
 		}
 	]
 }
