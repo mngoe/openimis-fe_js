@@ -29,7 +29,6 @@
     "redux-api-middleware": "^3.2.1",
     "redux-thunk": "^2.3.0",
     "shelljs": "^0.8.4",
-<<<<<<< HEAD
     "@openimis/fe-core": ">=1.5.0",
     "@openimis/fe-home": ">=1.5.0",
     "@openimis/fe-location": ">=1.4.0",
@@ -52,29 +51,6 @@
     "@openimis/fe-contribution_plan": ">=1.5.0",
     "@openimis/fe-contract": ">=1.4.1",
     "@openimis/fe-invoice": ">=1.4.1",
-=======
-    "@openimis/fe-core": "1.4.0",
-    "@openimis/fe-home": "1.4.0",
-    "@openimis/fe-location": "latest",
-    "@openimis/fe-insuree": "link:latest",
-    "@openimis/fe-medical": "latest",
-    "@openimis/fe-medical_pricelist": "latest",
-    "@openimis/fe-product": "latest",
-    "@openimis/fe-policy": "latest",
-    "@openimis/fe-payer": "latest",
-    "@openimis/fe-contribution": "latest",
-    "@openimis/fe-claim": "latest",
-    "@openimis/fe-claim_batch": "latest",
-    "@openimis/fe-admin": "latest",
-    "@openimis/fe-tools": "latest",
-    "@openimis/fe-profile": "latest",
-    "@openimis/fe-language_fr": "latest",
-    "@openimis/fe-calculation": "latest",
-    "@openimis/fe-policyholder": "latest",
-    "@openimis/fe-contribution_plan": "latest",
-    "@openimis/fe-contract": "latest",
-    "@openimis/fe-invoice": "latest",
->>>>>>> 58ba0e9b7e0bf3bb58c55231733344cf90f4a603
     "@openimis/fe-idps": "link:latest"
   },
   "scripts": {
