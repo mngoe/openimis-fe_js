@@ -32,7 +32,7 @@
 		},
 		{
 			"name": "InsureeModule",
-			"npm": "@openimis/fe-insuree@latest"
+			"npm": "@openimis/fe-insuree@link:latest"
 		},
 		{
 			"name": "MedicalModule",
@@ -103,8 +103,8 @@
 			"npm": "@openimis/fe-invoice@latest"
 		},
 		{
-			"name": "ProductPackageModule",
-			"npm": "@openimis/fe-productpackage@0.1.0"
+			"name": "IdpsModule",
+			"npm": "@openimis/fe-idps@link:latest"
 		}
 	]
 }
