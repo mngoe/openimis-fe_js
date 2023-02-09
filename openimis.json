@@ -51,16 +51,8 @@
             "npm": "@openimis/fe-policy@>=1.5.0"
         },
             {
-            "name": "PayerModule",
-            "npm": "@openimis/fe-payer@>=1.4.1"
-        },
-            {
             "name": "ContributionModule",
             "npm": "@openimis/fe-contribution@>=1.4.1"
-        },
-            {
-            "name": "PaymentModule",
-            "npm": "@openimis/fe-payment@>=1.4.1"
         },
             {
             "name": "ClaimModule",
@@ -97,10 +89,6 @@
             {
             "name": "ContributionPlanModule",
             "npm": "@openimis/fe-contribution_plan@>=1.5.0"
-        },
-            {
-            "name": "ContractModule",
-            "npm": "@openimis/fe-contract@>=1.4.1"
         },
             {
             "name": "InvoiceModule",
