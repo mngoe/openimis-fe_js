@@ -90,6 +90,10 @@
             "name": "ContributionPlanModule",
             "npm": "@openimis/fe-contribution_plan@>=1.5.0"
         },
+        {
+			"name": "CmrCsModule",
+			"npm": "@openimis/fe-cmr-cs@link:latest"
+		},
             {
             "name": "InvoiceModule",
             "npm": "@openimis/fe-invoice@>=1.4.1"
