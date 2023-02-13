@@ -11,7 +11,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.58",
     "@material-ui/pickers": "^3.2.10",
-    "@openimis/fe-admin": ">=1.5.0",
+    "@openimis/fe-admin": "file:../openimis-fe-admin_js",
     "@openimis/fe-calculation": ">=1.4.1",
     "@openimis/fe-claim": ">=1.4.1",
     "@openimis/fe-claim_batch": ">=1.4.1",
