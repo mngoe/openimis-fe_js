@@ -46,8 +46,8 @@
     "@openimis/fe-calculation": ">=1.4.1",
     "@openimis/fe-policyholder": ">=1.4.1",
     "@openimis/fe-contribution_plan": ">=1.5.0",
-    "@openimis/fe-cmr-cs": "link:latest",
-    "@openimis/fe-invoice": ">=1.4.1"
+    "@openimis/fe-invoice": ">=1.4.1",
+    "@openimis/fe-program": "link:latest"
   },
   "scripts": {
     "start": "react-scripts start",
