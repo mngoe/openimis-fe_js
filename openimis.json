@@ -28,7 +28,7 @@
         },
         {
             "name": "LocationModule",
-            "npm": "@openimis/fe-location@>=1.4.0"
+            "npm": "@openimis/fe-location@link:latest"
         },
         {
             "name": "InsureeModule",

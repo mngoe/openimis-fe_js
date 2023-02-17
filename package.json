@@ -22,7 +22,7 @@
     "@openimis/fe-insuree": ">=1.5.0",
     "@openimis/fe-invoice": ">=1.4.1",
     "@openimis/fe-language_fr": ">=1.5.1",
-    "@openimis/fe-location": ">=1.4.0",
+    "@openimis/fe-location": "file:../openimis-fe-location_js",
     "@openimis/fe-medical": "file:../openimis-fe-medical_js",
     "@openimis/fe-program": "file:../openimis-fe-program_js",
     "@openimis/fe-medical_pricelist": ">=1.5.0",
