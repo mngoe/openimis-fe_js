@@ -105,6 +105,10 @@
             {
             "name": "InvoiceModule",
             "npm": "@openimis/fe-invoice@>=1.4.1"
+        },
+        {
+            "name": "MauritaniaModule",
+            "npm": "@openimis/fe-mauritania"
         }
 	]
 }
