@@ -48,7 +48,7 @@
     "@openimis/fe-contribution_plan": ">=1.5.0",
     "@openimis/fe-invoice": ">=1.4.1",
     "@openimis/fe-program": "link:latest",
-    "@openimis/fe-csu": "file:../openimis-fe-csu_js"
+    "@openimis/fe-csu": "link:latest"
   },
   "scripts": {
     "start": "react-scripts start",
