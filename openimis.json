@@ -108,7 +108,7 @@
         },
         {
             "name": "MauritaniaModule",
-            "npm": "@openimis/fe-mauritania"
+            "npm": "@openimis/fe-mauritania@link:latest"
         }
 	]
 }
