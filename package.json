@@ -50,7 +50,8 @@
     "@openimis/fe-contribution_plan": ">=1.5.0",
     "@openimis/fe-contract": ">=1.4.1",
     "@openimis/fe-invoice": ">=1.4.1",
-    "@openimis/fe-mauritania": "link:latest"
+    "@openimis/fe-mauritania": "link:latest",
+    "@openimis/fe-language_fr_mr": "link:latest"
   },
   "scripts": {
     "start": "react-scripts start",
