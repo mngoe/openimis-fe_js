@@ -52,7 +52,7 @@
         },
         {
             "name": "ContributionModule",
-            "npm": "@openimis/fe-contribution@>=1.4.1"
+            "npm": "@openimis/fe-contribution@link:latest"
         },
         {
             "name": "ClaimModule",
