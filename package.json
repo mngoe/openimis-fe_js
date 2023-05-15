@@ -33,7 +33,7 @@
     "@openimis/fe-home": ">=1.5.0",
     "@openimis/fe-location": ">=1.4.0",
     "@openimis/fe-insuree": "link:latest",
-    "@openimis/fe-medical": ">=1.5.0",
+    "@openimis/fe-medical": "link:latest",
     "@openimis/fe-medical_pricelist": ">=1.5.0",
     "@openimis/fe-product": ">=1.5.0",
     "@openimis/fe-policy": ">=1.5.0",
