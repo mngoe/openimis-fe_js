@@ -20,7 +20,7 @@
     "modules": [
         {
             "name": "CoreModule",
-            "npm": "@openimis/fe-core@>=1.5.0"
+            "npm": "@openimis/fe-core@link:latest"
         },
         {
             "name": "HomeModule",
@@ -48,7 +48,7 @@
         },
         {
             "name": "PolicyModule",
-            "npm": "@openimis/fe-policy@>=1.5.0"
+            "npm": "@openimis/fe-policy@link-latest"
         },
         {
             "name": "ContributionModule",
