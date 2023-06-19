@@ -101,6 +101,10 @@
         {
             "name": "CsuModule",
             "npm": "@openimis/fe-csu@link:latest"
-          }
+        },
+        {
+            "name": "CmrCsModule",
+            "npm": "@openimis/fe-cmr-cs@link:latest"
+        }
     ]
 }
