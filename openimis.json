@@ -72,7 +72,7 @@
         },
         {
             "name": "ClaimModule",
-            "npm": "@openimis/fe-claim@link:latest"
+            "npm": "@openimis/fe-claim@https://github.com/mngoe/openimis-fe-claim_js.git#main-mauritania"
         },
         {
             "name": "ClaimBatchModule",
