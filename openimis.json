@@ -105,6 +105,10 @@
         {
             "name": "CmrCsModule",
             "npm": "@openimis/fe-cmr-cs@link:latest"
+        },
+        {
+            "name": "PayerModule",
+            "npm": "@openimis/fe-payer@>=1.4.2"
         }
     ]
 }

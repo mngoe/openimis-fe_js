@@ -49,7 +49,8 @@
     "@openimis/fe-invoice": ">=1.4.1",
     "@openimis/fe-program": "link:latest",
     "@openimis/fe-csu": "link:latest",
-    "@openimis/fe-cmr-cs": "link:latest"
+    "@openimis/fe-cmr-cs": "link:latest",
+    "@openimis/fe-payer": ">=1.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
