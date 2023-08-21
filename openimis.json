@@ -109,10 +109,6 @@
         {
             "name": "PayerModule",
             "npm": "@openimis/fe-payer@git+https://github.com/openimis/openimis-fe-payer_js.git#main"
-        },
-        {
-            "name": "ContributionCmrModule",
-            "npm": "@openimis/fe-contribution-cameroun@link:latest"
         }
     ]
 }

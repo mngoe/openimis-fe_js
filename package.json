@@ -50,8 +50,7 @@
     "@openimis/fe-program": "link:latest",
     "@openimis/fe-csu": "link:latest",
     "@openimis/fe-cmr-cs": "link:latest",
-    "@openimis/fe-payer": "git+https://github.com/openimis/openimis-fe-payer_js.git#main",
-    "@openimis/fe-contribution-cameroun": "link:latest"
+    "@openimis/fe-payer": "git+https://github.com/openimis/openimis-fe-payer_js.git#main"
   },
   "scripts": {
     "start": "react-scripts start",
