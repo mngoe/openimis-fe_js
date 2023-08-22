@@ -36,7 +36,7 @@
     "@openimis/fe-medical_pricelist": ">=1.5.0",
     "@openimis/fe-product": "link:latest",
     "@openimis/fe-policy": "link:latest",
-    "@openimis/fe-contribution": "link:latest",
+    "@openimis/fe-contribution-cameroun": "link:latest",
     "@openimis/fe-claim": "link:latest",
     "@openimis/fe-claim_batch": ">=1.4.1",
     "@openimis/fe-admin": "link:latest",
@@ -50,8 +50,7 @@
     "@openimis/fe-program": "link:latest",
     "@openimis/fe-csu": "link:latest",
     "@openimis/fe-cmr-cs": "link:latest",
-    "@openimis/fe-payer": "git+https://github.com/openimis/openimis-fe-payer_js.git#main",
-    "@openimis/fe-contribution-cameroun": "link:latest"
+    "@openimis/fe-payer": "git+https://github.com/openimis/openimis-fe-payer_js.git#main"
   },
   "scripts": {
     "start": "react-scripts start",
