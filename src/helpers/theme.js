@@ -10,6 +10,14 @@ const theme = createTheme({
         },
       },
     },
+    MuiFormLabel: {
+      asterisk: {
+        color: '#db3131',
+        '&$error': {
+          color: '#db3131'
+        },
+      }
+    },
   },
   palette: {
     primary: { main: "#006273" },
