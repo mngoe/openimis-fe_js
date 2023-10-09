@@ -28,7 +28,7 @@
     "modules": [
         {
             "name": "CoreModule",
-            "npm": "@openimis/fe-core@>=1.5.1"
+            "npm": "@openimis/fe-core@link:latest"
         },
         {
             "name": "HomeModule",
@@ -44,7 +44,7 @@
         },
         {
             "name": "MedicalModule",
-            "npm": "@openimis/fe-medical@>=1.5.1"
+            "npm": "@openimis/fe-medical@link:latest"
         },
         {
             "name": "MedicalPriceListModule",
