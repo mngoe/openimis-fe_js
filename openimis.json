@@ -28,7 +28,7 @@
     "modules": [
         {
             "name": "CoreModule",
-            "npm": "@openimis/fe-core@>=1.5.1"
+            "npm": "@openimis/fe-core@link:latest"
         },
         {
             "name": "HomeModule",
@@ -44,7 +44,7 @@
         },
         {
             "name": "MedicalModule",
-            "npm": "@openimis/fe-medical@>=1.5.1"
+            "npm": "@openimis/fe-medical@link:latest"
         },
         {
             "name": "MedicalPriceListModule",
@@ -72,7 +72,7 @@
         },
         {
             "name": "ClaimModule",
-            "npm": "@openimis/fe-claim@https://github.com/mngoe/openimis-fe-claim_js.git#main-mauritania"
+            "npm": "@openimis/fe-claim@link:latest"
         },
         {
             "name": "ClaimBatchModule",
