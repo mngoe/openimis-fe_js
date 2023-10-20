@@ -30,7 +30,7 @@
     "shelljs": "^0.8.4",
     "@openimis/fe-core": "link:latest",
     "@openimis/fe-home": ">=1.5.1",
-    "@openimis/fe-location": ">=1.4.1",
+    "@openimis/fe-location": "link:latest",
     "@openimis/fe-insuree": "link:latest",
     "@openimis/fe-medical": "link:latest",
     "@openimis/fe-medical_pricelist": ">=1.5.1",
