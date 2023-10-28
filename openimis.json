@@ -52,7 +52,7 @@
         },
         {
             "name": "ContributionModule",
-            "npm": "@openimis/fe-contribution@link:latest"
+            "npm": "@openimis/fe-contribution-cameroun@link:latest"
         },
         {
             "name": "ClaimModule",
@@ -86,7 +86,14 @@
             "name": "PolicyHolderModule",
             "npm": "@openimis/fe-policyholder@>=1.4.1"
         },
- 
+        {
+            "name": "ContributionPlanModule",
+            "npm": "@openimis/fe-contribution_plan@>=1.5.0"
+        },
+        {
+            "name": "InvoiceModule",
+            "npm": "@openimis/fe-invoice@link:latest"
+        },
         {
             "name": "ProgramModule",
             "npm": "@openimis/fe-program@link:latest"
