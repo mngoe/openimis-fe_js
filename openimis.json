@@ -86,7 +86,14 @@
             "name": "PolicyHolderModule",
             "npm": "@openimis/fe-policyholder@>=1.4.1"
         },
- 
+        {
+            "name": "ContributionPlanModule",
+            "npm": "@openimis/fe-contribution_plan@>=1.5.0"
+        },
+        {
+            "name": "InvoiceModule",
+            "npm": "@openimis/fe-invoice@>=1.4.1"
+        },
         {
             "name": "ProgramModule",
             "npm": "@openimis/fe-program@link:latest"
