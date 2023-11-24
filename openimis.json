@@ -52,7 +52,7 @@
         },
         {
             "name": "ContributionModule",
-            "npm": "@openimis/fe-contribution-cameroun@link:latest"
+            "npm": "@openimis/fe-contribution@link:latest"
         },
         {
             "name": "ClaimModule",
