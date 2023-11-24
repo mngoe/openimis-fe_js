@@ -46,7 +46,7 @@
     "@openimis/fe-calculation": ">=1.4.1",
     "@openimis/fe-policyholder": ">=1.4.1",
     "@openimis/fe-contribution_plan": ">=1.5.0",
-    "@openimis/fe-invoice": ">=1.4.1",
+    "@openimis/fe-invoice": "link:latest",
     "@openimis/fe-program": "link:latest",
     "@openimis/fe-csu": "link:latest",
     "@openimis/fe-cmr-cs": "link:latest",
@@ -83,6 +83,7 @@
   },
   "devDependencies": {
     "http-proxy-middleware": "^2.0.1",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "flat": "^5.0.2"
   }
 }

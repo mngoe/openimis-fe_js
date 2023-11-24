@@ -92,7 +92,7 @@
         },
         {
             "name": "InvoiceModule",
-            "npm": "@openimis/fe-invoice@>=1.4.1"
+            "npm": "@openimis/fe-invoice@link:latest"
         },
         {
             "name": "ProgramModule",
