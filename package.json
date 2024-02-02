@@ -42,7 +42,6 @@
     "@openimis/fe-admin": "link:latest",
     "@openimis/fe-tools": ">=1.5.0",
     "@openimis/fe-profile": ">=1.5.0",
-    "@openimis/fe-language_fr": ">=1.5.1",
     "@openimis/fe-calculation": ">=1.4.1",
     "@openimis/fe-policyholder": ">=1.4.1",
     "@openimis/fe-contribution_plan": ">=1.5.0",
@@ -50,7 +49,8 @@
     "@openimis/fe-program": "link:latest",
     "@openimis/fe-csu": "link:latest",
     "@openimis/fe-cmr-cs": "link:latest",
-    "@openimis/fe-payer": "git+https://github.com/openimis/openimis-fe-payer_js.git#main"
+    "@openimis/fe-payer": "git+https://github.com/openimis/openimis-fe-payer_js.git#main",
+    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main"
   },
   "scripts": {
     "start": "react-scripts start",
