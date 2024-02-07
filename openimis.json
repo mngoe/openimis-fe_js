@@ -109,6 +109,10 @@
         {
             "name": "PayerModule",
             "npm": "@openimis/fe-payer@git+https://github.com/openimis/openimis-fe-payer_js.git#main"
+        },
+        {
+            "name": "LanguageFrCmrCSUModule",
+            "npm": "@openimis/fe-language_fr_cmr_csu@link:latest"
         }
     ]
 }
