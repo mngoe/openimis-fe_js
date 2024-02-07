@@ -108,7 +108,7 @@
         },
         {
             "name": "LanguageFrCmrCSUModule",
-            "npm": "@openimis/fe-language_fr_cmr_csu@git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main"
+            "npm": "@openimis/fe-language_fr_cmr_csu@link:latest"
         }
     ]
 }
