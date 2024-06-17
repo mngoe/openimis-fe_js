@@ -138,6 +138,10 @@ const theme = createTheme({
       fontWeight: 500,
       align: "center",
     },
+    secondaryHighlightedRow: {
+      backgroundColor: "#cbedf2",
+    },
+    secondaryHighlightedCell: {},
     highlightedAltRow: {},
     highlightedAltCell: {
       fontStyle: "italic",
@@ -190,6 +194,18 @@ const theme = createTheme({
     },
     secondaryButton: {},
   },
+  tooltipContainer: {
+    position: 'fixed',
+    bottom: 15,
+    right: 8,
+    zIndex: 2000,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-end',
+  },
+  flexTooltip: {
+    marginBottom: 5,
+  },
   fab: {
     position: "fixed",
     bottom: 20,
@@ -200,6 +216,14 @@ const theme = createTheme({
   bigAvatar: {
     width: 160,
     height: 160,
+  },
+  buttonContainer: {
+    horizontal: {
+      display: "flex",
+      flexWrap: "nowrap",
+      overflowX: "auto",
+      justifyContent: "flex-end",
+    },
   },
 });
 
