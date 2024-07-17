@@ -32,11 +32,11 @@
         },
             {
             "name": "InsureeModule",
-            "npm": "@openimis/fe-insuree@link:latest"
+            "npm": "@openimis/fe-insuree@git+https://github.com/openimis/openimis-fe-insuree_js.git#develop"
         },
         {
             "name": "PolicyModule",
-            "npm": "@openimis/fe-policy@link:latest"
+            "npm": "@openimis/fe-policy@git+https://github.com/openimis/openimis-fe-policy_js.git#develop"
         },
             {
             "name": "MedicalModule",
@@ -57,7 +57,7 @@
         },
             {
             "name": "ContributionModule",
-            "npm": "@openimis/fe-contribution@latest"
+            "npm": "@openimis/fe-contribution@git+https://github.com/openimis/openimis-fe-contribution_js.git#develop"
         },
             {
             "name": "PaymentModule",
