@@ -15,16 +15,18 @@ cd /conf/openimis-fe-policy_js
 yarn install 
 yarn  build
 yarn link 
-apt-get remove nodejs
+cd /conf/openimis-fe-contribution_js
+yarn install 
+yarn  build
+yarn link 
+apt-get remove nodejs -y
 curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
 bash nodesource_setup.sh
 apt-get install nodejs -y
 cd /conf/openimis-fe_js
 yarn link "@openimis/fe-insuree"
 yarn link "@openimis/fe-policy"
-yarn start 
-
-
+yarn link "@openimis/fe-contribution"
 REF=$(date +'%m%d%Y%p')
 [ ${FORCE_RELOAD} -eq 1 ] && REDIRECT_TAIL="&${REF}" || REDIRECT_TAIL=''
 rm -f /etc/nginx/conf.d/openIMIS.confs
@@ -36,6 +38,7 @@ echo "Hosting on https://""$NEW_OPENIMIS_HOST"
 echo "root uri $PUBLIC_URL"
 echo "root api $REACT_APP_API_URL"
 echo "root restapi $ROOT_MOBILEAPI"
-
 cp /conf/frontend-comores.loc /etc/nginx/conf.d/locations/frontend.loc
 service nginx reload
+cd /conf/openimis-fe_js
+yarn start 
