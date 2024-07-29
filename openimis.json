@@ -9,6 +9,14 @@
         "fileNames": "en"
       },
       {
+          "languages": [
+            "fr",
+            "fr-FR"
+          ],
+          "intl": "fr-FR",
+          "fileNames": "fr"
+      },
+      {
         "languages": [
           "np",
           "np-NP"
