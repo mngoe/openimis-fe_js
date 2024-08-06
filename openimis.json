@@ -80,7 +80,7 @@
     },
         {
         "name": "ToolsModule",
-        "npm": "@openimis/fe-tools@>=v1.6.0"
+        "npm": "@openimis/fe-tools@link:latest"
     },
         {
         "name": "ProfileModule",
