@@ -131,18 +131,6 @@
         "npm": "@openimis/fe-invoice@>=v1.6.0"
     },
         {
-        "name": "SocialProtectionModule",
-        "npm": "@openimis/fe-social_protection@>=v1.1.1"
-    },
-        {
-        "name": "TasksManagementModule",
-        "npm": "@openimis/fe-tasks_management@>=v1.1.1"
-    },
-        {
-        "name": "OpenSearchReportsModule",
-        "npm": "@openimis/fe-opensearch_reports@>=v1.1.0"
-    },
-        {
         "name": "PayrollModule",
         "npm": "@openimis/fe-payroll@>=v1.1.1"
     },
