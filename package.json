@@ -43,7 +43,6 @@
     "@openimis/fe-csu": "link:latest",
     "@openimis/fe-cmr-cs": "link:latest",
     "@openimis/fe-language_fr_cmr_csu": "link:latest",
-    "@openimis/fe-individual": ">=1.0.0",
     "@openimis/fe-home": ">=v1.5.3",
     "@openimis/fe-medical_pricelist": ">=v1.6.0",
     "@openimis/fe-payer": ">=v1.4.4",
@@ -55,9 +54,6 @@
     "@openimis/fe-contribution_plan": ">=v1.7.0",
     "@openimis/fe-payment_cycle": ">=v1.0.1",
     "@openimis/fe-contract": ">=v1.5.1",
-    "@openimis/fe-social_protection": ">=v1.1.1",
-    "@openimis/fe-tasks_management": ">=v1.1.1",
-    "@openimis/fe-opensearch_reports": ">=v1.1.0",
     "@openimis/fe-payroll": ">=v1.1.1",
     "@openimis/fe-deduplication": ">=v1.0.1"
   },

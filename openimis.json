@@ -79,10 +79,6 @@
             "npm": "@openimis/fe-language_fr_cmr_csu@link:latest"
         },
         {
-            "name": "IndividualModule",
-            "npm": "@openimis/fe-individual@>=1.0.0"
-        },
-        {
             "name": "HomeModule",
             "npm": "@openimis/fe-home@>=v1.5.3"
         },
@@ -125,18 +121,6 @@
         {
             "name": "ContractModule",
             "npm": "@openimis/fe-contract@>=v1.5.1"
-        },
-        {
-            "name": "SocialProtectionModule",
-            "npm": "@openimis/fe-social_protection@>=v1.1.1"
-        },
-        {
-            "name": "TasksManagementModule",
-            "npm": "@openimis/fe-tasks_management@>=v1.1.1"
-        },
-        {
-            "name": "OpenSearchReportsModule",
-            "npm": "@openimis/fe-opensearch_reports@>=v1.1.0"
         },
         {
             "name": "PayrollModule",
