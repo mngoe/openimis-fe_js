@@ -15,6 +15,10 @@ cd /conf/openimis-fe-policy
 yarn install
 yarn build
 yarn link
+cd /conf/openimis-fe-location
+yarn install
+yarn build
+yarn link
 apt-get remove nodejs -y
 curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
 bash nodesource_setup.sh
@@ -22,6 +26,7 @@ apt-get install nodejs -y
 cd /conf/openimis-fe_js
 yarn link "@openimis/fe-insuree"
 yarn link "@openimis/fe-policy"
+yarn link "@openimis/fe-location"
 REF=$(date +'%m%d%Y%p')
 [ ${FORCE_RELOAD} -eq 1 ] && REDIRECT_TAIL="&${REF}" || REDIRECT_TAIL=''
 rm -f /etc/nginx/conf.d/openIMIS.confs
