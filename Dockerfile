@@ -11,8 +11,9 @@ ARG OPENIMIS_CONF_JSON
 ENV OPENIMIS_CONF_JSON=${OPENIMIS_CONF_JSON}
 ENV NODE_ENV=production
 RUN npm run load-config
-RUN npm install 
-RUN npm run build
+ENV NODE_OPTIONS=--max-old-space-size=4096
+RUN npm install
+RUN npm run build --jobs=2
 
 
 ### NGINX
