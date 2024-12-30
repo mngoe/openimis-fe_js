@@ -95,10 +95,6 @@
         "npm": "@openimis/fe-payer@>=v1.4.4"
     },
     {
-        "name": "PaymentModule",
-        "npm": "@openimis/fe-payment@>=v1.4.4"
-    },
-    {
         "name": "ClaimBatchModule",
         "npm": "@openimis/fe-claim_batch@>=v1.4.3"
     },
