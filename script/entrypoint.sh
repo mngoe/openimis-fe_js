@@ -41,6 +41,29 @@ if [ -d '/conf/locations' ]; then
 
 fi
 
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+bash nodesource_setup.sh
+apt -y install nodejs git nano 
+npm install --global yarn 
+cd /conf/openimis-fe_js
+yarn  load-config openimis.json
+yarn install 
+cd /conf/openimis-fe_js
+REF=$(date +'%m%d%Y%p')
+[[ ${FORCE_RELOAD} -eq 1 ]] && REDIRECT_TAIL="&${REF}" || REDIRECT_TAIL=''
+rm -f /etc/nginx/conf.d/openIMIS.confs
+rm -f /etc/nginx/conf.d/default.conf
+cp  /conf/openimis-comores.conf /etc/nginx/conf.d/openIMIS.conf
+VARS_TO_REPLACE="$(printenv | grep -Eo "^([A-Z_]*)" | xargs -I % echo \$\{%\}, | xargs)"
+envsubst  "\${REDIRECT_TAIL}, ${VARS_TO_REPLACE::-1}" < /conf/openimis-comores.conf > /etc/nginx/conf.d/openIMIS.conf
+echo "Hosting on https://""$NEW_OPENIMIS_HOST"
+echo "root uri $PUBLIC_URL"
+echo "root api $REACT_APP_API_URL"
+echo "root restapi $ROOT_MOBILEAPI"
+cp /conf/frontend-comores.loc /etc/nginx/conf.d/locations/frontend.loc
+cd /conf/openimis-fe_js
+yarn start
+
 ln -s -f  /usr/share/nginx/html /usr/share/nginx/html/${PUBLIC_URL}
 echo "Hosting on https://""$NEW_OPENIMIS_HOST"
 echo "root uri $PUBLIC_URL"
@@ -48,4 +71,3 @@ echo "root api $REACT_APP_API_URL"
 echo "root restapi $ROOT_MOBILEAPI"
 
 exec "$@"
-
