@@ -64,7 +64,7 @@
     },
     {
         "name": "ClaimModule",
-        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#test-csu"
+        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#main-csu"
     },
     {
         "name": "AdminModule",
