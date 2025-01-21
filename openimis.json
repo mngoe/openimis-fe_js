@@ -20,11 +20,11 @@
   "modules": [
     {
         "name": "CoreModule",
-        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#main-csu"
+        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#test-csu"
     },
     {
         "name": "ProgramModule",
-        "npm": "@openimis/fe-program@git+https://github.com/mngoe/openimis-fe-program_js.git#main-csu"
+        "npm": "@openimis/fe-program@git+https://github.com/mngoe/openimis-fe-program_js.git#test-csu"
     },
     {
         "name": "CsuModule",
@@ -32,7 +32,7 @@
     },
     {
         "name": "CmrCsModule",
-        "npm": "@openimis/fe-cmr-cs@git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#main-csu"
+        "npm": "@openimis/fe-cmr-cs@git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#test-csu"
     },
     {
         "name": "LanguageFrCmrCSUModule",
@@ -40,27 +40,27 @@
     },
     {
         "name": "LocationModule",
-        "npm": "@openimis/fe-location@git+https://github.com/mngoe/openimis-fe-location_js.git#main-csu"
+        "npm": "@openimis/fe-location@git+https://github.com/mngoe/openimis-fe-location_js.git#test-csu"
     },
     {
         "name": "InsureeModule",
-        "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#main-csu"
+        "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#test-csu"
     },
     {
         "name": "MedicalModule",
-        "npm": "@openimis/fe-medical@git+https://github.com/mngoe/openimis-fe-medical_js.git#main-csu"
+        "npm": "@openimis/fe-medical@git+https://github.com/mngoe/openimis-fe-medical_js.git#test-csu"
     },
     {
         "name": "ProductModule",
-        "npm": "@openimis/fe-product@git+https://github.com/mngoe/openimis-fe-product_js.git#main-csu"
+        "npm": "@openimis/fe-product@git+https://github.com/mngoe/openimis-fe-product_js.git#test-csu"
     },
     {
         "name": "PolicyModule",
-        "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#main-csu"
+        "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#test-csu"
     },
     {
         "name": "ContributionModule",
-        "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#main-csu"
+        "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#test-csu"
     },
     {
         "name": "ClaimModule",
@@ -68,15 +68,15 @@
     },
     {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#main-csu"
+        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#test-csu"
     },
         {
         "name": "ToolsModule",
-        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#main-csu"
+        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#test-csu"
     },
     {
         "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#main-csu"
+        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#test-csu"
     }, 
     {
         "name": "IndividualModule",
