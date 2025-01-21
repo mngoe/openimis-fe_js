@@ -35,10 +35,6 @@
         "npm": "@openimis/fe-cmr-cs@git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#test-csu"
     },
     {
-        "name": "LanguageFrCmrCSUModule",
-        "npm": "@openimis/fe-language_fr_cmr_csu@git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main"
-    },
-    {
         "name": "LocationModule",
         "npm": "@openimis/fe-location@git+https://github.com/mngoe/openimis-fe-location_js.git#test-csu"
     },
@@ -125,6 +121,10 @@
         {
         "name": "ContractModule",
         "npm": "@openimis/fe-contract@>=v1.5.1"
+    },
+    {
+        "name": "LanguageFrCmrCSUModule",
+        "npm": "@openimis/fe-language_fr_cmr_csu@git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main"
     }
   ]
 }
