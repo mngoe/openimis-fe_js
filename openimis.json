@@ -24,7 +24,7 @@
     },
     {
         "name": "ProgramModule",
-        "npm": "@openimis/fe-program@git+https://github.com/mngoe/openimis-fe-program_js.git#test-csu"
+        "npm": "@openimis/fe-program@git+https://github.com/mngoe/openimis-fe-program_js.git#main-csu"
     },
     {
         "name": "CsuModule",
@@ -32,7 +32,7 @@
     },
     {
         "name": "CmrCsModule",
-        "npm": "@openimis/fe-cmr-cs@git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#test-csu"
+        "npm": "@openimis/fe-cmr-cs@git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#main-csu"
     },
     {
         "name": "LocationModule",
