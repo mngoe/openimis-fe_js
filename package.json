@@ -29,10 +29,9 @@
     "redux-thunk": "^2.3.0",
     "shelljs": "^0.8.4",
     "@openimis/fe-core": "git+https://github.com/mngoe/openimis-fe-core_js.git#test-csu",
-    "@openimis/fe-program": "git+https://github.com/mngoe/openimis-fe-program_js.git#test-csu",
+    "@openimis/fe-program": "git+https://github.com/mngoe/openimis-fe-program_js.git#main-csu",
     "@openimis/fe-csu": "git+https://github.com/mngoe/openimis-fe-csu_js.git#main",
-    "@openimis/fe-cmr-cs": "git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#test-csu",
-    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main",
+    "@openimis/fe-cmr-cs": "git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#main-csu",
     "@openimis/fe-location": "git+https://github.com/mngoe/openimis-fe-location_js.git#test-csu",
     "@openimis/fe-insuree": "git+https://github.com/mngoe/openimis-fe-insuree_js.git#test-csu",
     "@openimis/fe-medical": "git+https://github.com/mngoe/openimis-fe-medical_js.git#test-csu",
@@ -54,7 +53,9 @@
     "@openimis/fe-policyholder": ">=v1.5.1",
     "@openimis/fe-contribution_plan": ">=v1.7.0",
     "@openimis/fe-payment_cycle": ">=v1.0.1",
-    "@openimis/fe-contract": ">=v1.5.1"
+    "@openimis/fe-contract": ">=v1.5.1",
+    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main",
+    "@openimis/fe-cache": "git+https://github.com/mngoe/openimis-fe-cache_js.git#main"
   },
   "scripts": {
     "start": "react-scripts start",
