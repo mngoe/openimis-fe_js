@@ -125,6 +125,10 @@
     {
         "name": "LanguageFrCmrCSUModule",
         "npm": "@openimis/fe-language_fr_cmr_csu@git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main"
+    },
+    {
+        "name": "CacheModule",
+        "npm": "@openimis/fe-cache@git+https://github.com/Y-Note-SAS/openimis-fe-cache-manager_js.git#main"
     }
   ]
 }
