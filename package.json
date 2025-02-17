@@ -86,6 +86,9 @@
       "last 1 safari version"
     ]
   },
+  "resolutions": {
+    "caniuse-lite": "1.0.30001632"
+  },
   "devDependencies": {
     "flat": "^5.0.2",
     "http-proxy-middleware": "^2.0.1",
