@@ -64,7 +64,7 @@
     },
     {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#main-csu"
+        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#test-csu"
     },
         {
         "name": "ToolsModule",
