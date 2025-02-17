@@ -39,7 +39,7 @@
     "@openimis/fe-policy": "git+https://github.com/mngoe/openimis-fe-policy_js.git#test-csu",
     "@openimis/fe-contribution": "git+https://github.com/mngoe/openimis-fe-contribution_js.git#test-csu",
     "@openimis/fe-claim": "git+https://github.com/mngoe/openimis-fe-claim_js.git#test-csu",
-    "@openimis/fe-admin": "git+https://github.com/mngoe/openimis-fe-admin_js.git#test-csu",
+    "@openimis/fe-admin": "git+https://github.com/mngoe/openimis-fe-admin_js.git#main-csu",
     "@openimis/fe-tools": "git+https://github.com/mngoe/openimis-fe-tools_js.git#test-csu",
     "@openimis/fe-invoice": "git+https://github.com/mngoe/openimis-fe-invoice_js.git#test-csu",
     "@openimis/fe-individual": ">=1.0.0",
