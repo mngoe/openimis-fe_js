@@ -32,7 +32,6 @@
     "@openimis/fe-program": "git+https://github.com/mngoe/openimis-fe-program_js.git#main-csu",
     "@openimis/fe-csu": "git+https://github.com/mngoe/openimis-fe-csu_js.git#main",
     "@openimis/fe-cmr-cs": "git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#main-csu",
-    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main",
     "@openimis/fe-location": "git+https://github.com/mngoe/openimis-fe-location_js.git#main-csu",
     "@openimis/fe-insuree": "git+https://github.com/mngoe/openimis-fe-insuree_js.git#main-csu",
     "@openimis/fe-medical": "git+https://github.com/mngoe/openimis-fe-medical_js.git#main-csu",
@@ -47,7 +46,6 @@
     "@openimis/fe-home": ">=v1.5.3",
     "@openimis/fe-medical_pricelist": ">=v1.6.0",
     "@openimis/fe-payer": ">=v1.4.4",
-    "@openimis/fe-payment": ">=v1.4.4",
     "@openimis/fe-claim_batch": ">=v1.4.3",
     "@openimis/fe-profile": ">=v1.6.1",
     "@openimis/fe-language_fr": ">=v1.6.2",
@@ -55,7 +53,8 @@
     "@openimis/fe-policyholder": ">=v1.5.1",
     "@openimis/fe-contribution_plan": ">=v1.7.0",
     "@openimis/fe-payment_cycle": ">=v1.0.1",
-    "@openimis/fe-contract": ">=v1.5.1"
+    "@openimis/fe-contract": ">=v1.5.1",
+    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -85,6 +84,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "caniuse-lite": "1.0.30001632"
   },
   "devDependencies": {
     "flat": "^5.0.2",
