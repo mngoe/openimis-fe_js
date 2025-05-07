@@ -32,6 +32,7 @@ const loadConfiguration = async () => {
       try {
         acc[c.module] = { controls: c.controls, ...JSON.parse(c.config) };
       } catch (error) {
+        console.log('acc module ', acc[c.module], 'c.module', c.module, 'c.config', c.config, 'c.control', c.controls  )
         console.error(`Failed to parse module ${c.module} config`, error);
       }
       return acc;
