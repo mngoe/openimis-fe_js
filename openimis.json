@@ -20,7 +20,7 @@
   "modules": [
     {
         "name": "CoreModule",
-        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#test-csu"
+        "npm": "@openimis/fe-core@>=v1.8.0"
     },
     {
         "name": "ProgramModule",
