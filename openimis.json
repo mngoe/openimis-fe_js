@@ -96,7 +96,7 @@
     },
     {
         "name": "ProfileModule",
-        "npm": "@openimis/fe-profile@>=v1.6.1"
+        "npm": "@openimis/fe-profile@=v1.6.1"
     },
         {
         "name": "LanguageFrModule",
