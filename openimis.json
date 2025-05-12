@@ -96,11 +96,11 @@
     },
         {
         "name": "ToolsModule",
-        "npm": "@openimis/fe-tools@>=v1.6.0"
+        "npm": "@openimis/fe-tools@=v1.6.0"
     },
         {
         "name": "ProfileModule",
-        "npm": "@openimis/fe-profile@>=v1.6.1"
+        "npm": "@openimis/fe-profile@=v1.6.1"
     },
         {
         "name": "LanguageFrModule",
@@ -108,11 +108,11 @@
     },
         {
         "name": "CalculationModule",
-        "npm": "@openimis/fe-calculation@>=v1.5.1"
+        "npm": "@openimis/fe-calculation@=v1.5.1"
     },
         {
         "name": "PolicyHolderModule",
-        "npm": "@openimis/fe-policyholder@>=v1.5.1"
+        "npm": "@openimis/fe-policyholder@=v1.5.1"
     },
         {
         "name": "ContributionPlanModule",
@@ -120,19 +120,19 @@
     },
         {
         "name": "PaymentCycleModule",
-        "npm": "@openimis/fe-payment_cycle@>=v1.0.1"
+        "npm": "@openimis/fe-payment_cycle@=v1.0.1"
     },
         {
         "name": "ContractModule",
-        "npm": "@openimis/fe-contract@>=v1.5.1"
+        "npm": "@openimis/fe-contract@=v1.5.1"
     },
         {
         "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@>=v1.6.0"
+        "npm": "@openimis/fe-invoice@=v1.6.0"
     },
         {
         "name": "PayrollModule",
-        "npm": "@openimis/fe-payroll@>=v1.1.1"
+        "npm": "@openimis/fe-payroll@=v1.1.1"
     },
         {
         "name": "DeduplicationModule",
