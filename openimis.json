@@ -64,7 +64,7 @@
     },
         {
         "name": "ProductModule",
-        "npm": "@openimis/fe-product@>=v1.7.0"
+        "npm": "@openimis/fe-product@=v1.7.0"
     },
     {
       "name": "PolicyModule",
