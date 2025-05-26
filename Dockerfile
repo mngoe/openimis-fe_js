@@ -26,6 +26,8 @@ COPY --from=build-stage /etc/ssl/private/ /etc/nginx/ssl/live/host
 
 COPY ./conf /conf
 COPY script/entrypoint.sh /script/entrypoint.sh
+# Generate Diffie-Hellman Parameters (2048-bit)
+RUN openssl dhparam -out /etc/nginx/dhparam.pem 2048
 RUN chmod a+x /script/entrypoint.sh
 WORKDIR /script
 ENV DATA_UPLOAD_MAX_MEMORY_SIZE=50M

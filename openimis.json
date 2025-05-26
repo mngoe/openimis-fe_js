@@ -39,12 +39,12 @@
         "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#develop-comores"
     },
         {
-        "name": "IndividualModule",
-        "npm": "@openimis/fe-individual@>=1.0.0"
+            "name": "IndividualModule",
+            "npm": "@openimis/fe-individual@>=v1.2.0"
     },
         {
-        "name": "HomeModule",
-        "npm": "@openimis/fe-home@>=v1.5.3"
+            "name": "HomeModule",
+            "npm": "@openimis/fe-home@>=v1.6.0"
     },
         {
         "name": "LocationModule",
@@ -63,16 +63,16 @@
         "npm": "@openimis/fe-medical_pricelist@>=v1.6.0"
     },
         {
-        "name": "ProductModule",
-        "npm": "@openimis/fe-product@=v1.7.0"
+            "name": "ProductModule",
+            "npm": "@openimis/fe-product@>=v1.8.0"
     },
     {
       "name": "PolicyModule",
       "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#develop-comores"
     },
         {
-        "name": "PayerModule",
-        "npm": "@openimis/fe-payer@>=v1.4.4"
+            "name": "PayerModule",
+            "npm": "@openimis/fe-payer@>=v1.5.0"
     },
     {
       "name": "ContributionModule",
@@ -87,52 +87,52 @@
         "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#develop-comores"
     },
         {
-        "name": "ClaimBatchModule",
-        "npm": "@openimis/fe-claim_batch@>=v1.4.3"
+            "name": "ClaimBatchModule",
+            "npm": "@openimis/fe-claim_batch@>=v1.5.0"
     },
         {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/openimis/openimis-fe-admin_js.git#release/24.04"
+        "npm": "@openimis/fe-admin@git+https://github.com/openimis/openimis-fe-admin_js.git#release/25.04"
     },
         {
         "name": "ToolsModule",
         "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#develop-comores"
     },
         {
-        "name": "ProfileModule",
-        "npm": "@openimis/fe-profile@=v1.6.1"
+            "name": "ProfileModule",
+            "npm": "@openimis/fe-profile@>=v1.7.0"
     },
         {
-        "name": "LanguageFrModule",
-        "npm": "@openimis/fe-language_fr@>=v1.6.2"
+            "name": "LanguageFrModule",
+            "npm": "@openimis/fe-language_fr@>=v1.8.0"
     },
         {
-        "name": "CalculationModule",
-        "npm": "@openimis/fe-calculation@=v1.5.1"
+            "name": "CalculationModule",
+            "npm": "@openimis/fe-calculation@>=v1.6.0"
     },
         {
-        "name": "PolicyHolderModule",
-        "npm": "@openimis/fe-policyholder@=v1.5.1"
+            "name": "PolicyHolderModule",
+            "npm": "@openimis/fe-policyholder@>=v1.7.0"
     },
         {
         "name": "ContributionPlanModule",
         "npm": "@openimis/fe-contribution_plan@git+https://github.com/openimis/openimis-fe-contribution_plan_js.git#release/24.04"
     },
         {
-        "name": "PaymentCycleModule",
-        "npm": "@openimis/fe-payment_cycle@=v1.0.1"
+            "name": "PaymentCycleModule",
+            "npm": "@openimis/fe-payment_cycle@>=v1.2.0"
     },
         {
-        "name": "ContractModule",
-        "npm": "@openimis/fe-contract@=v1.5.1"
+            "name": "ContractModule",
+            "npm": "@openimis/fe-contract@>=v1.6.0"
     },
         {
-        "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@=v1.6.0"
+            "name": "InvoiceModule",
+            "npm": "@openimis/fe-invoice@>=v1.8.0"
     },
         {
-        "name": "PayrollModule",
-        "npm": "@openimis/fe-payroll@=v1.1.1"
+            "name": "PayrollModule",
+            "npm": "@openimis/fe-payroll@>=v1.3.0"
     },
         {
         "name": "DeduplicationModule",
