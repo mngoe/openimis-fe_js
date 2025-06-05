@@ -36,7 +36,7 @@
     "modules": [
       {
         "name": "CoreModule",
-        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#develop-comores"
+        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#main-comores"
     },
         {
         "name": "IndividualModule",
@@ -52,7 +52,7 @@
     },
     {
       "name": "InsureeModule",
-      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#develop-comores"
+      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#main-comores"
     },
         {
         "name": "MedicalModule",
@@ -68,7 +68,7 @@
     },
     {
       "name": "PolicyModule",
-      "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#develop-comores"
+      "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#main-comores"
     },
         {
         "name": "PayerModule",
@@ -76,15 +76,15 @@
     },
     {
       "name": "ContributionModule",
-      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#develop-comores"
+      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#main-comores"
     },
         {
         "name": "PaymentModule",
-        "npm": "@openimis/fe-payment@git+https://github.com/mngoe/openimis-fe-payment_js.git#develop-comores"
+        "npm": "@openimis/fe-payment@git+https://github.com/mngoe/openimis-fe-payment_js.git#main-comores"
     },
         {
         "name": "ClaimModule",
-        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#develop-comores"
+        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#main-comores"
     },
         {
         "name": "ClaimBatchModule",
@@ -96,7 +96,7 @@
     },
         {
         "name": "ToolsModule",
-        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#develop-comores"
+        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#main-comores"
     },
         {
         "name": "ProfileModule",
