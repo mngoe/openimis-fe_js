@@ -69,20 +69,20 @@ const theme = createTheme({
   paper: {
     paper: {
       margin: 10,
-      backgroundColor: "#D5F6F5", // anciennement #dbeef0
+      backgroundColor: "#DEF1EE", // anciennement #dbeef0
     },
     header: {
       color: "#004A7C",
-      backgroundColor: "#B3E2E2", // anciennement #b7d4d8
+      backgroundColor: "#37D4CC", // anciennement #b7d4d8
     },
     message: {
-      backgroundColor: "#B3E2E2", // anciennement #b7d4d8
+      backgroundColor: "#37D4CC", // anciennement #b7d4d8
     },
     title: {
       padding: 10,
       fontSize: 24,
       color: "#004A7C",
-      backgroundColor: "#B3E2E2", // anciennement #b7d4d8
+      backgroundColor: "#37D4CC", // anciennement #b7d4d8
     },
     action: {
       padding: 5,
@@ -93,7 +93,7 @@ const theme = createTheme({
     },
     body: {
       marginTop: 10,
-      backgroundColor: "#D5F6F5", // anciennement #dbeef0
+      backgroundColor: "#DEF1EE", // anciennement #dbeef0
     },
     item: {
       padding: 10,
@@ -104,7 +104,7 @@ const theme = createTheme({
       padding: 10,
       fontWeight: 500,
       color: "#004A7C",
-      backgroundColor: "#B3E2E2", // anciennement #b7d4d8
+      backgroundColor: "#37D4CC", // anciennement #b7d4d8
     },
     header: {
       color: "#004A7C",
@@ -132,7 +132,7 @@ const theme = createTheme({
       align: "center",
     },
     secondaryHighlightedRow: {
-      backgroundColor: "#D5F6F5", // anciennement #cbedf2
+      backgroundColor: "#DEF1EE", // anciennement #cbedf2
     },
     secondaryHighlightedCell: {},
     highlightedAltRow: {},
