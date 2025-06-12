@@ -19,9 +19,9 @@
       {
           "languages": [
             "fr_KM",
-            "fr_KM"
+            "fr-KM"
           ],
-          "intl": "fr_KM",
+          "intl": "fr-KM",
           "fileNames": "km"
       },
       {
@@ -137,10 +137,6 @@
         {
         "name": "DeduplicationModule",
         "npm": "@openimis/fe-deduplication@>=v1.0.1"
-    },
-    {
-      "name": "LanguageKmModule",
-      "npm": "@openimis/fe-language_fr_km@git+https://github.com/ArkeupIDComores/openimis-fe-language_fr_km_js.git#develop-arkeup"
     },
     {
         "name": "ComoresModule",
