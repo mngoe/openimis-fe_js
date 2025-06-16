@@ -80,7 +80,7 @@
     },
     {
         "name": "HomeModule",
-        "npm": "@openimis/fe-home@>=v1.5.3"
+        "npm": "@openimis/fe-home@=v1.5.3"
     },
     {
         "name": "MedicalPriceListModule",
