@@ -116,7 +116,7 @@
     },
         {
         "name": "ContributionPlanModule",
-        "npm": "@openimis/fe-contribution_plan@git+https://github.com/openimis/openimis-fe-contribution_plan_js.git#release/24.04"
+        "npm": "@openimis/fe-contribution_plan@=v1.7.0"
     },
         {
         "name": "PaymentCycleModule",
@@ -145,7 +145,11 @@
     {
         "name": "ComoresModule",
         "npm": "@openimis/fe-comores@git+https://github.com/Y-Note-SAS/openimis-fe-comores_js.git#main"
-    }  
+    },
+    {
+        "name": "PolicyNotification",
+        "npm": "@openimis/fe-policy_notification@git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#develop-comores"
+    }   
      
     ]
   }
