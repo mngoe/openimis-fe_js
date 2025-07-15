@@ -76,7 +76,7 @@
     }, 
     {
         "name": "IndividualModule",
-        "npm": "@openimis/fe-individual@>=1.0.0"
+        "npm": "@openimis/fe-individual@=1.0.0"
     },
     {
         "name": "HomeModule",
@@ -84,15 +84,15 @@
     },
     {
         "name": "MedicalPriceListModule",
-        "npm": "@openimis/fe-medical_pricelist@>=v1.6.0"
+        "npm": "@openimis/fe-medical_pricelist@=v1.6.0"
     },
     {
         "name": "PayerModule",
-        "npm": "@openimis/fe-payer@>=v1.4.4"
+        "npm": "@openimis/fe-payer@=v1.4.4"
     },
     {
         "name": "ClaimBatchModule",
-        "npm": "@openimis/fe-claim_batch@>=v1.4.3"
+        "npm": "@openimis/fe-claim_batch@=v1.4.3"
     },
     {
         "name": "ProfileModule",
@@ -100,27 +100,27 @@
     },
         {
         "name": "LanguageFrModule",
-        "npm": "@openimis/fe-language_fr@>=v1.6.2"
+        "npm": "@openimis/fe-language_fr@=v1.6.2"
     },
         {
         "name": "CalculationModule",
-        "npm": "@openimis/fe-calculation@>=v1.5.1"
+        "npm": "@openimis/fe-calculation@=v1.5.1"
     },
         {
         "name": "PolicyHolderModule",
-        "npm": "@openimis/fe-policyholder@>=v1.5.1"
+        "npm": "@openimis/fe-policyholder@=v1.5.1"
     },
         {
         "name": "ContributionPlanModule",
-        "npm": "@openimis/fe-contribution_plan@>=v1.7.0"
+        "npm": "@openimis/fe-contribution_plan@=v1.7.0"
     },
         {
         "name": "PaymentCycleModule",
-        "npm": "@openimis/fe-payment_cycle@>=v1.0.1"
+        "npm": "@openimis/fe-payment_cycle@=v1.0.1"
     },
         {
         "name": "ContractModule",
-        "npm": "@openimis/fe-contract@>=v1.5.1"
+        "npm": "@openimis/fe-contract@=v1.5.1"
     },
     {
         "name": "LanguageFrCmrCSUModule",
