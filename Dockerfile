@@ -3,6 +3,7 @@ RUN mkdir /app
 COPY ./ /app
 WORKDIR /app
 RUN chown node /app -R
+RUN echo "deb http://archive.debian.org/debian buster main" > /etc/apt/sources.list && echo "deb http://archive.debian.org/debian-security buster/updates main" >> /etc/apt/sources.list
 RUN npm install --global serve
 RUN apt-get update && apt-get install -y nano openssl software-properties-common 
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/privkey.pem -out /etc/ssl/private/fullchain.pem -subj "/C=DE/ST=_/L=_/O=_/OU=_/CN=localhost"
