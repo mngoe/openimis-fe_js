@@ -92,7 +92,7 @@
     },
         {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/openimis/openimis-fe-admin_js.git#release/24.04"
+        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#main-comores"
     },
         {
         "name": "ToolsModule",
