@@ -128,7 +128,7 @@
     },
         {
         "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@=v1.6.0"
+        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#main-comores"
     },
         {
         "name": "PayrollModule",
