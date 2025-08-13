@@ -60,7 +60,7 @@
     },
         {
         "name": "MedicalPriceListModule",
-        "npm": "@openimis/fe-medical_pricelist@>=v1.6.0"
+        "npm": "@openimis/fe-medical_pricelist@git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#test-comores"
     },
         {
         "name": "ProductModule",
