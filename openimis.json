@@ -96,7 +96,7 @@
     },
         {
         "name": "ToolsModule",
-        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#develop-comores"
+        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#test-comores"
     },
         {
         "name": "ProfileModule",
@@ -128,7 +128,7 @@
     },
         {
         "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#develop-comores"
+        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#test-comores"
     },
         {
         "name": "PayrollModule",
@@ -148,7 +148,7 @@
     },
     {
         "name": "PolicyNotification",
-        "npm": "@openimis/fe-policy_notification@git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#develop-comores"
+        "npm": "@openimis/fe-policy_notification@git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#test-comores"
     }   
      
     ]
