@@ -148,7 +148,7 @@
     },
     {
         "name": "PolicyNotification",
-        "npm": "@openimis/fe-policy_notification@git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#test-comores"
+        "npm": "@openimis/fe-policy_notification@git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#develop-comores"
     }   
      
     ]
