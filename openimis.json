@@ -36,15 +36,15 @@
     "modules": [
       {
         "name": "CoreModule",
-        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#test-comores"
+        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#develop-comores"
     },
         {
         "name": "IndividualModule",
-        "npm": "@openimis/fe-individual@=1.0.0"
+        "npm": "@openimis/fe-individual@>=1.0.0"
     },
         {
         "name": "HomeModule",
-        "npm": "@openimis/fe-home@=v1.5.3"
+        "npm": "@openimis/fe-home@>=v1.5.3"
     },
         {
         "name": "LocationModule",
@@ -52,7 +52,7 @@
     },
     {
       "name": "InsureeModule",
-      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#test-comores"
+      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#develop-comores"
     },
         {
         "name": "MedicalModule",
@@ -60,7 +60,7 @@
     },
         {
         "name": "MedicalPriceListModule",
-        "npm": "@openimis/fe-medical_pricelist@git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#test-comores"
+        "npm": "@openimis/fe-medical_pricelist@git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#develop-comores"
     },
         {
         "name": "ProductModule",
@@ -68,35 +68,35 @@
     },
     {
       "name": "PolicyModule",
-      "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#test-comores"
+      "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#develop-comores"
     },
         {
         "name": "PayerModule",
-        "npm": "@openimis/fe-payer@=v1.4.4"
+        "npm": "@openimis/fe-payer@>=v1.4.4"
     },
     {
       "name": "ContributionModule",
-      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#test-comores"
+      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#develop-comores"
     },
         {
         "name": "PaymentModule",
-        "npm": "@openimis/fe-payment@git+https://github.com/mngoe/openimis-fe-payment_js.git#main-comores"
+        "npm": "@openimis/fe-payment@git+https://github.com/mngoe/openimis-fe-payment_js.git#develop-comores"
     },
         {
         "name": "ClaimModule",
-        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#test-comores"
+        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#develop-comores"
     },
         {
         "name": "ClaimBatchModule",
-        "npm": "@openimis/fe-claim_batch@=v1.4.3"
+        "npm": "@openimis/fe-claim_batch@>=v1.4.3"
     },
         {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#test-comores"
+        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#develop-comores"
     },
         {
         "name": "ToolsModule",
-        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#test-comores"
+        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#develop-comores"
     },
         {
         "name": "ProfileModule",
@@ -104,7 +104,7 @@
     },
         {
         "name": "LanguageFrModule",
-        "npm": "@openimis/fe-language_fr@=v1.6.2"
+        "npm": "@openimis/fe-language_fr@>=v1.6.2"
     },
         {
         "name": "CalculationModule",
@@ -128,7 +128,7 @@
     },
         {
         "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#test-comores"
+        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#develop-comores"
     },
         {
         "name": "PayrollModule",
@@ -136,7 +136,7 @@
     },
         {
         "name": "DeduplicationModule",
-        "npm": "@openimis/fe-deduplication@=v1.0.1"
+        "npm": "@openimis/fe-deduplication@>=v1.0.1"
     },
     {
       "name": "LanguageKmModule",
@@ -148,7 +148,7 @@
     },
     {
         "name": "PolicyNotification",
-        "npm": "@openimis/fe-policy_notification@git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#main-comores"
+        "npm": "@openimis/fe-policy_notification@git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#develop-comores"
     }   
      
     ]
