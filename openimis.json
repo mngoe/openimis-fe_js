@@ -36,7 +36,7 @@
     "modules": [
       {
         "name": "CoreModule",
-        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#develop-comores"
+        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#test-comores"
     },
         {
         "name": "IndividualModule",
@@ -52,7 +52,7 @@
     },
     {
       "name": "InsureeModule",
-      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#develop-comores"
+      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#test-comores"
     },
         {
         "name": "MedicalModule",
