@@ -76,15 +76,15 @@
     },
     {
       "name": "ContributionModule",
-      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#develop-comores"
+      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#test-comores"
     },
         {
         "name": "PaymentModule",
-        "npm": "@openimis/fe-payment@git+https://github.com/mngoe/openimis-fe-payment_js.git#develop-comores"
+        "npm": "@openimis/fe-payment@git+https://github.com/mngoe/openimis-fe-payment_js.git#test-comores"
     },
         {
         "name": "ClaimModule",
-        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#develop-comores"
+        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#test-comores"
     },
         {
         "name": "ClaimBatchModule",
@@ -92,7 +92,7 @@
     },
         {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#develop-comores"
+        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#test-comores"
     },
         {
         "name": "ToolsModule",
