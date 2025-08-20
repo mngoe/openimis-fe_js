@@ -60,7 +60,7 @@
     },
         {
         "name": "MedicalPriceListModule",
-        "npm": "@openimis/fe-medical_pricelist@git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#test-comores"
+        "npm": "@openimis/fe-medical_pricelist@git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#main-comores"
     },
         {
         "name": "ProductModule",
@@ -92,7 +92,7 @@
     },
         {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#test-comores"
+        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#main-comores"
     },
         {
         "name": "ToolsModule",
