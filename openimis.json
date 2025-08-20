@@ -36,7 +36,7 @@
     "modules": [
       {
         "name": "CoreModule",
-        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#main-comores"
+        "npm": "@openimis/fe-core@git+https://github.com/mngoe/openimis-fe-core_js.git#test-comores"
     },
         {
         "name": "IndividualModule",
@@ -52,7 +52,7 @@
     },
     {
       "name": "InsureeModule",
-      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#main-comores"
+      "npm": "@openimis/fe-insuree@git+https://github.com/mngoe/openimis-fe-insuree_js.git#test-comores"
     },
         {
         "name": "MedicalModule",
@@ -60,7 +60,7 @@
     },
         {
         "name": "MedicalPriceListModule",
-        "npm": "@openimis/fe-medical_pricelist@git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#main-comores"
+        "npm": "@openimis/fe-medical_pricelist@git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#test-comores"
     },
         {
         "name": "ProductModule",
@@ -68,7 +68,7 @@
     },
     {
       "name": "PolicyModule",
-      "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#main-comores"
+      "npm": "@openimis/fe-policy@git+https://github.com/mngoe/openimis-fe-policy_js.git#test-comores"
     },
         {
         "name": "PayerModule",
@@ -76,7 +76,7 @@
     },
     {
       "name": "ContributionModule",
-      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#main-comores"
+      "npm": "@openimis/fe-contribution@git+https://github.com/mngoe/openimis-fe-contribution_js.git#test-comores"
     },
         {
         "name": "PaymentModule",
@@ -84,7 +84,7 @@
     },
         {
         "name": "ClaimModule",
-        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#main-comores"
+        "npm": "@openimis/fe-claim@git+https://github.com/mngoe/openimis-fe-claim_js.git#test-comores"
     },
         {
         "name": "ClaimBatchModule",
@@ -92,11 +92,11 @@
     },
         {
         "name": "AdminModule",
-        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#main-comores"
+        "npm": "@openimis/fe-admin@git+https://github.com/mngoe/openimis-fe-admin_js.git#test-comores"
     },
         {
         "name": "ToolsModule",
-        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#main-comores"
+        "npm": "@openimis/fe-tools@git+https://github.com/mngoe/openimis-fe-tools_js.git#test-comores"
     },
         {
         "name": "ProfileModule",
@@ -128,7 +128,7 @@
     },
         {
         "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#main-comores"
+        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#test-comores"
     },
         {
         "name": "PayrollModule",
