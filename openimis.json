@@ -48,7 +48,7 @@
     },
     {
         "name": "ProductModule",
-        "npm": "@openimis/fe-product@git+https://github.com/mngoe/openimis-fe-product_js.git#test-csu"
+        "npm": "@openimis/fe-product@git+https://github.com/Y-Note-SAS/openimis-fe-product_js.git#test-csu"
     },
     {
         "name": "PolicyModule",
