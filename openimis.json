@@ -48,7 +48,7 @@
     },
         {
         "name": "LocationModule",
-        "npm": "@openimis/fe-location@git+https://github.com/ArkeupIDComores/openimis-fe-location_js.git#feature-filtre-prescripteur"
+        "npm": "@openimis/fe-location@git+https://github.com/ArkeupIDComores/openimis-fe-location_js.git#test-comores"
     },
     {
       "name": "InsureeModule",
