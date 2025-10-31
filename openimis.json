@@ -56,7 +56,7 @@
     },
         {
         "name": "MedicalModule",
-        "npm": "@openimis/fe-medical@git+https://github.com/ArkeupIDComores/openimis-fe-medical_js.git#develop-arkeup"
+        "npm": "@openimis/fe-medical@git+https://github.com/ArkeupIDComores/openimis-fe-medical_js.git#main-arkeup"
     },
         {
         "name": "MedicalPriceListModule",
