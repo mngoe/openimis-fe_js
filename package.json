@@ -28,6 +28,7 @@
     "redux-api-middleware": "^3.2.1",
     "redux-thunk": "^2.3.0",
     "shelljs": "^0.8.4",
+    "@sentry/react": "^6.25.0",
     "@openimis/fe-core": "git+https://github.com/mngoe/openimis-fe-core_js.git#main-csu",
     "@openimis/fe-program": "git+https://github.com/mngoe/openimis-fe-program_js.git#main-csu",
     "@openimis/fe-csu": "git+https://github.com/mngoe/openimis-fe-csu_js.git#main",
@@ -92,6 +93,7 @@
   "devDependencies": {
     "flat": "^5.0.2",
     "http-proxy-middleware": "^2.0.1",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "@sentry/react": "^6.25.0"
   }
 }
