@@ -103,5 +103,13 @@ const AppContainer = () => {
   }
 };
 
-ReactDOM.render(<AppContainer />, document.getElementById("root"));
+ReactDOM.render(
+  <Sentry.ErrorBoundary
+    fallback={<FatalError error={{ code: 500, message: "An unexpected error occurred" }} />}
+    showDialog
+  >
+    <AppContainer />
+  </Sentry.ErrorBoundary>,
+  document.getElementById("root")
+);
 serviceWorker.register();
