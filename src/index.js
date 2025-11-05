@@ -1,5 +1,6 @@
 import "react-app-polyfill/ie11";
 import "react-app-polyfill/stable";
+import * as Sentry from "@sentry/react";
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { MuiThemeProvider, LinearProgress } from "@material-ui/core";
@@ -17,6 +18,15 @@ import messages_ref from "./translations/ref.json";
 import "./index.css";
 import logo from "./LOGOMINSANTEok.jpg"; 
 
+Sentry.init({ 
+  dsn: "https://a6e6e61b483f4432a19ad52f25437897@glitchtip-csuapps.minsante.cm/6", 
+  debug: false,
+  integrations: [
+    Sentry.browserTracingIntegration(),
+  ],
+  tracesSampleRate: 1.0,
+});
+
 const loadConfiguration = async () => {
   const response = await fetch(`${baseApiUrl}/graphql`, {
     method: "post",
@@ -24,6 +34,7 @@ const loadConfiguration = async () => {
     body: JSON.stringify({ "query": "{ moduleConfigurations { module, config, controls{ field, usage } } }" }),
   });
   if (!response.ok) {
+    Sentry.captureException(new Error(`${response.status} ${response.statusText}`));
     throw response;
   } else {
     const { data } = await response.json();
@@ -46,19 +57,22 @@ const AppContainer = () => {
 
   useEffect(() => {
     loadConfiguration().then(
-      (config) =>
+      (config) => {
         setAppState({
           error: null,
           isLoading: false,
           config,
-        }),
-      (error) =>
+        });
+      },
+      (error) => {
+        Sentry.captureException(new Error("Failed to load configuration"));
         setAppState({
           error,
           isLoading: false,
-        }),
+        });
+      }
     );
-  }, []);
+  }, []);  
 
   if (appState.isLoading) {
     return (
@@ -103,5 +117,13 @@ const AppContainer = () => {
   }
 };
 
-ReactDOM.render(<AppContainer />, document.getElementById("root"));
+ReactDOM.render(
+  <Sentry.ErrorBoundary
+    fallback={<FatalError error={{ code: 500, message: "An unexpected error occurred" }} />}
+    showDialog
+  >
+    <AppContainer />
+  </Sentry.ErrorBoundary>,
+  document.getElementById("root")
+);
 serviceWorker.register();
