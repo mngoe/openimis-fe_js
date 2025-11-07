@@ -19,7 +19,7 @@ import "./index.css";
 import logo from "./LOGOMINSANTEok.jpg"; 
 
 Sentry.init({ 
-  dsn: "https://a6e6e61b483f4432a19ad52f25437897@glitchtip-csuapps.minsante.cm/6", 
+  dsn: process.env.REACT_APP_SENTRY_DSN,
   debug: false,
   integrations: [
     Sentry.browserTracingIntegration(),
