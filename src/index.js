@@ -56,7 +56,6 @@ const AppContainer = () => {
         });
       },
       (error) => {
-        Sentry.captureException(new Error("Failed to load configuration"));
         setAppState({
           error,
           isLoading: false,
