@@ -18,15 +18,6 @@ import messages_ref from "./translations/ref.json";
 import "./index.css";
 import logo from "./LOGOMINSANTEok.jpg";
 
-Sentry.init({ 
-  dsn: "https://f2741df242f344c6b46aa251ad870f2f@glitchtip-csuapps.minsante.cm/2", 
-  debug: false,
-  integrations: [
-    Sentry.browserTracingIntegration(),
-  ],
-  tracesSampleRate: 1.0,
-});
-
 const loadConfiguration = async () => {
   const response = await fetch(`${baseApiUrl}/graphql`, {
     method: "post",
@@ -65,7 +56,6 @@ const AppContainer = () => {
         });
       },
       (error) => {
-        Sentry.captureException(new Error("Failed to load configuration"));
         setAppState({
           error,
           isLoading: false,
@@ -91,6 +81,16 @@ const AppContainer = () => {
     );
   } else {
     const modulesManager = new ModulesManager(appState.config);
+    const sentryDSN = modulesManager.getConf("fe", "sentryDSN", "");
+    if (sentryDSN) {
+      Sentry.init({ 
+        dsn: sentryDSN,
+        debug: false,
+        integrations: [
+          Sentry.browserTracingIntegration(),
+        ],
+      });
+    }
     const reducers = modulesManager.getContribs("reducers").reduce((reds, red) => {
       reds[red.key] = red.reducer;
       return reds;
