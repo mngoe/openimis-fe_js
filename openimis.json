@@ -32,7 +32,7 @@
     },
     {
         "name": "CmrCsModule",
-        "npm": "@openimis/fe-cmr-cs@git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#main-csu"
+        "npm": "@openimis/fe-cmr-cs@git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#test-csu"
     },
     {
         "name": "LocationModule",
