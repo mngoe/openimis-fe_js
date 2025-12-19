@@ -20,4 +20,12 @@ module.exports = function (app) {
       headers: headers
     }),
   );
+  app.use(
+    '/amg-pay',
+    createProxyMiddleware({
+      target: pkg.proxy,
+      changeOrigin: false,
+      headers: headers
+    }),
+  );
 };
