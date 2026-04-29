@@ -57,7 +57,7 @@
     "@openimis/fe-invoice": "git+https://github.com/mngoe/openimis-fe-invoice_js.git#develop-comores",
     "@openimis/fe-payroll": "=v1.1.1",
     "@openimis/fe-deduplication": ">=v1.0.1",
-    "@openimis/fe-language_fr_km": "git+https://github.com/ArkeupIDComores/openimis-fe-language_fr_km_js.git#develop-arkeup",
+    "@openimis/fe-language_fr_km": "git+https://github.com/Y-Note-SAS/openimis-fe-language_fr_km_js.git#develop-arkeup",
     "@openimis/fe-comores": "git+https://github.com/Y-Note-SAS/openimis-fe-comores_js.git#main",
     "@openimis/fe-policy_notification": "git+https://github.com/Y-Note-SAS/openimis-fe-policy_notification_js.git#develop-comores"
   },
