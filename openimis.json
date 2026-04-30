@@ -140,7 +140,7 @@
     },
     {
       "name": "LanguageKmModule",
-      "npm": "@openimis/fe-language_fr_km@git+https://github.com/ArkeupIDComores/openimis-fe-language_fr_km_js.git#develop-arkeup"
+      "npm": "@openimis/fe-language_fr_km@git+https://github.com/Y-Note-SAS/openimis-fe-language_fr_km_js.git#develop-arkeup"
     },
     {
         "name": "ComoresModule",
