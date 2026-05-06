@@ -128,7 +128,7 @@
     },
         {
         "name": "InvoiceModule",
-        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#develop-comores"
+        "npm": "@openimis/fe-invoice@git+https://github.com/mngoe/openimis-fe-invoice_js.git#main-comores"
     },
         {
         "name": "PayrollModule",
@@ -140,7 +140,7 @@
     },
     {
       "name": "LanguageKmModule",
-      "npm": "@openimis/fe-language_fr_km@git+https://github.com/ArkeupIDComores/openimis-fe-language_fr_km_js.git#develop-arkeup"
+      "npm": "@openimis/fe-language_fr_km@git+https://github.com/ArkeupIDComores/openimis-fe-language_fr_km_js.git#main-arkeup"
     },
     {
         "name": "ComoresModule",
