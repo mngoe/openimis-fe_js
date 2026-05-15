@@ -33,9 +33,9 @@ ARG OPENIMIS_CONF_JSON
 ENV OPENIMIS_CONF_JSON=${OPENIMIS_CONF_JSON}
 ENV NODE_ENV=production
 ENV NODE_OPTIONS=--max-old-space-size=4096
-RUN yarn load-config
-RUN yarn install --frozen-lockfile || yarn install
-RUN yarn build
+RUN npm run load-config
+RUN npm install --legacy-peer-deps --include=dev
+RUN npm run build
 
 FROM nginx:latest
 COPY --from=build-stage /app/build/ /usr/share/nginx/html
