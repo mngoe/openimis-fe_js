@@ -28,7 +28,7 @@
     },
     {
         "name": "CsuModule",
-        "npm": "@openimis/fe-csu@git+https://github.com/mngoe/openimis-fe-csu_js.git#main"
+        "npm": "@openimis/fe-csu@git+https://github.com/mngoe/openimis-fe-csu_js.git#test-csu"
     },
     {
         "name": "CmrCsModule",
