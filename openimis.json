@@ -99,10 +99,6 @@
         "npm": "@openimis/fe-profile@=v1.6.1"
     },
         {
-        "name": "LanguageFrModule",
-        "npm": "@openimis/fe-language_fr@=v1.6.2"
-    },
-        {
         "name": "CalculationModule",
         "npm": "@openimis/fe-calculation@=v1.5.1"
     },
