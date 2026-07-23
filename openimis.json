@@ -129,6 +129,10 @@
     {
         "name": "CacheModule",
         "npm": "@openimis/fe-cache@git+https://github.com/Y-Note-SAS/openimis-fe-cache-manager_js.git#main"
+    },
+    {
+        "name": "MedicalControllerModule",
+        "npm": "@openimis/fe-medical_controller@git+https://github.com/Y-Note-SAS/openimis-fe-medical_controller_js.git#test-csu"
     }
   ]
 }
