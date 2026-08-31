@@ -1,0 +1,2 @@
+function d(t){return t&&t.constructor&&typeof t.constructor.isBuffer=="function"&&t.constructor.isBuffer(t)}function A(t){return t}function B(t,n){n=n||{};const l=n.delimiter||".",m=n.maxDepth,o=n.transformKey||A,f={};function s(i,u,r){r=r||1,Object.keys(i).forEach(function(c){const e=i[c],x=n.safe&&Array.isArray(e),a=Object.prototype.toString.call(e),O=d(e),b=a==="[object Object]"||a==="[object Array]",y=u?u+l+o(c):o(c);if(!x&&!O&&b&&Object.keys(e).length&&(!n.maxDepth||r<m))return s(e,y,r+1);f[y]=e})}return s(t),f}export{B as f};
+//# sourceMappingURL=index-B7fh304_.js.map
