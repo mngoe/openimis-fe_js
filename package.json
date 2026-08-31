@@ -55,7 +55,7 @@
     "@openimis/fe-contribution_plan": "=v1.7.0",
     "@openimis/fe-payment_cycle": "=v1.0.1",
     "@openimis/fe-contract": "=v1.5.1",
-    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/Y-Note-SAS/openimis-fe-language_fr_cmr_csu_js.git#test-csu",
+    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/Y-Note-SAS/openimis-fe-language_fr_cmr_csu_js.git#main",
     "@openimis/fe-cache": "git+https://github.com/Y-Note-SAS/openimis-fe-cache-manager_js.git#main",
     "@openimis/fe-medical_controller": "git+https://github.com/Y-Note-SAS/openimis-fe-medical_controller_js.git#test-csu"
   },
