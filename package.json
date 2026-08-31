@@ -46,7 +46,7 @@
     "@openimis/fe-invoice": "git+https://github.com/mngoe/openimis-fe-invoice_js.git#test-csu",
     "@openimis/fe-individual": "=1.0.0",
     "@openimis/fe-home": "=v1.5.3",
-    "@openimis/fe-medical_pricelist": "=v1.6.0",
+    "@openimis/fe-medical_pricelist": "git+https://github.com/Y-Note-SAS/openimis-fe-medical_pricelist_js.git#test-csu",
     "@openimis/fe-payer": "=v1.4.4",
     "@openimis/fe-claim_batch": "=v1.4.3",
     "@openimis/fe-profile": "=v1.6.1",
@@ -55,8 +55,9 @@
     "@openimis/fe-contribution_plan": "=v1.7.0",
     "@openimis/fe-payment_cycle": "=v1.0.1",
     "@openimis/fe-contract": "=v1.5.1",
-    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/mngoe/openimis-fe-language_fr_cmr_csu_js-.git#main",
-    "@openimis/fe-cache": "git+https://github.com/Y-Note-SAS/openimis-fe-cache-manager_js.git#main"
+    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/Y-Note-SAS/openimis-fe-language_fr_cmr_csu_js.git#test-csu",
+    "@openimis/fe-cache": "git+https://github.com/Y-Note-SAS/openimis-fe-cache-manager_js.git#main",
+    "@openimis/fe-medical_controller": "git+https://github.com/Y-Note-SAS/openimis-fe-medical_controller_js.git#test-csu"
   },
   "scripts": {
     "start": "craco start",
