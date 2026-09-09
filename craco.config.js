@@ -1,10 +1,15 @@
 const webpack = require("webpack");
+const { SubresourceIntegrityPlugin } = require("webpack-subresource-integrity");
 
 module.exports = {
   webpack: {
     configure: (webpackConfig) => {
       // Set publicPath to serve assets under /front/
       webpackConfig.output.publicPath = "/front/";
+      webpackConfig.output.crossOriginLoading = "anonymous";
+      webpackConfig.plugins.push(
+        new SubresourceIntegrityPlugin({ hashFuncNames: ["sha384"] })
+      );
 
       // Inject environment variables explicitly
       webpackConfig.plugins.push(
