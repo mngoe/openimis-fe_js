@@ -132,7 +132,7 @@
     },
     {
         "name": "MedicalControllerModule",
-        "npm": "@openimis/fe-medical_controller@git+https://github.com/Y-Note-SAS/openimis-fe-medical_controller_js.git#test-csu"
+        "npm": "@openimis/fe-medical_controller@git+https://github.com/Y-Note-SAS/openimis-fe-medical_controller_js.git#main-csu"
     }
   ]
 }
