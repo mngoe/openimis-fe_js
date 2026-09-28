@@ -10,3 +10,5 @@ src/locales.js
 .idea
 yarn.lock
 .env
+.DS_Store
+./.DS_Store
