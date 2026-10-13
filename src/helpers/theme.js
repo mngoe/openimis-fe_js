@@ -132,7 +132,7 @@ const theme = createTheme({
       align: "center",
     },
     secondaryHighlightedRow: {
-      backgroundColor: "#DEF1EE", // anciennement #cbedf2
+      backgroundColor: "#cbedf2", // anciennement #DEF1EE
     },
     secondaryHighlightedCell: {},
     highlightedAltRow: {},
