@@ -1,0 +1,158 @@
+{
+  "locales": [
+    {
+      "languages": [
+        "en",
+        "en-GB"
+      ],
+      "intl": "en-GB",
+      "fileNames": "en"
+    },
+    {
+      "languages": [
+        "fr",
+        "fr-FR"
+      ],
+      "intl": "fr-FR",
+      "fileNames": "fr"
+    }
+  ],
+  "modules": [
+    {
+        "name": "CoreModule",
+        "npm": "@openimis/fe-core@link:latest"
+    },
+        {
+        "name": "IndividualModule",
+        "npm": "@openimis/fe-individual@>=1.0.0"
+    },
+        {
+        "name": "HomeModule",
+        "npm": "@openimis/fe-home@>=v1.5.3"
+    },
+    {
+        "name": "LocationModule",
+        "npm": "@openimis/fe-location@link:latest"
+    },
+    {
+        "name": "InsureeModule",
+        "npm": "@openimis/fe-insuree@link:latest"
+    },
+    {
+        "name": "MedicalModule",
+        "npm": "@openimis/fe-medical@link:latest"
+    },
+        {
+        "name": "MedicalPriceListModule",
+        "npm": "@openimis/fe-medical_pricelist@>=v1.6.0"
+    },
+    {
+        "name": "ProductModule",
+        "npm": "@openimis/fe-product@link:latest"
+    },
+    {
+        "name": "PolicyModule",
+        "npm": "@openimis/fe-policy@link:latest"
+    },
+        {
+        "name": "PayerModule",
+        "npm": "@openimis/fe-payer@>=v1.4.4"
+    },
+    {
+        "name": "ContributionModule",
+        "npm": "@openimis/fe-contribution@link:latest"
+    },
+        {
+        "name": "PaymentModule",
+        "npm": "@openimis/fe-payment@>=v1.4.4"
+    },
+    {
+        "name": "ClaimModule",
+        "npm": "@openimis/fe-claim@link:latest"
+    },
+        {
+        "name": "ClaimBatchModule",
+        "npm": "@openimis/fe-claim_batch@>=v1.4.3"
+    },
+    {
+        "name": "AdminModule",
+        "npm": "@openimis/fe-admin@link:latest"
+    },
+        {
+        "name": "ToolsModule",
+        "npm": "@openimis/fe-tools@link:latest"
+    },
+        {
+        "name": "ProfileModule",
+        "npm": "@openimis/fe-profile@>=v1.6.1"
+    },
+        {
+        "name": "LanguageFrModule",
+        "npm": "@openimis/fe-language_fr@>=v1.6.2"
+    },
+        {
+        "name": "CalculationModule",
+        "npm": "@openimis/fe-calculation@>=v1.5.1"
+    },
+        {
+        "name": "PolicyHolderModule",
+        "npm": "@openimis/fe-policyholder@>=v1.5.1"
+    },
+        {
+        "name": "ContributionPlanModule",
+        "npm": "@openimis/fe-contribution_plan@>=v1.7.0"
+    },
+        {
+        "name": "PaymentCycleModule",
+        "npm": "@openimis/fe-payment_cycle@>=v1.0.1"
+    },
+        {
+        "name": "ContractModule",
+        "npm": "@openimis/fe-contract@>=v1.5.1"
+    },
+    {
+        "name": "InvoiceModule",
+        "npm": "@openimis/fe-invoice@link:latest"
+    },
+        {
+        "name": "SocialProtectionModule",
+        "npm": "@openimis/fe-social_protection@>=v1.1.1"
+    },
+        {
+        "name": "TasksManagementModule",
+        "npm": "@openimis/fe-tasks_management@>=v1.1.1"
+    },
+        {
+        "name": "OpenSearchReportsModule",
+        "npm": "@openimis/fe-opensearch_reports@>=v1.1.0"
+    },
+        {
+        "name": "PayrollModule",
+        "npm": "@openimis/fe-payroll@>=v1.1.1"
+    },
+        {
+        "name": "DeduplicationModule",
+        "npm": "@openimis/fe-deduplication@>=v1.0.1"
+    },
+    {
+        "name": "ProgramModule",
+        "npm": "@openimis/fe-program@link:latest"
+    },
+    {
+        "name": "CsuModule",
+        "npm": "@openimis/fe-csu@link:latest"
+    },
+    {
+        "name": "CmrCsModule",
+        "npm": "@openimis/fe-cmr-cs@link:latest"
+    },
+    {
+        "name": "PayerModule",
+        "npm": "@openimis/fe-payer@git+https://github.com/openimis/openimis-fe-payer_js.git#main"
+    },
+    {
+        "name": "LanguageFrCmrCSUModule",
+        "npm": "@openimis/fe-language_fr_cmr_csu@link:latest"
+    }
+  ]
+}
