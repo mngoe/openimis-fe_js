@@ -34,7 +34,7 @@
     "@openimis/fe-program": "git+https://github.com/mngoe/openimis-fe-program_js.git#main-csu",
     "@openimis/fe-csu": "git+https://github.com/mngoe/openimis-fe-csu_js.git#test-csu",
     "@openimis/fe-cmr-cs": "git+https://github.com/mngoe/openimis-fe-cmr-cs_js.git#test-csu",
-    "@openimis/fe-location": "git+https://github.com/mngoe/openimis-fe-location_js.git#test-csu",
+    "@openimis/fe-location": "git+https://github.com/mngoe/openimis-fe-location_js.git#dev-csu",
     "@openimis/fe-insuree": "git+https://github.com/mngoe/openimis-fe-insuree_js.git#test-csu",
     "@openimis/fe-medical": "git+https://github.com/mngoe/openimis-fe-medical_js.git#test-csu",
     "@openimis/fe-product": "git+https://github.com/Y-Note-SAS/openimis-fe-product_js.git#test-csu",
@@ -55,9 +55,9 @@
     "@openimis/fe-contribution_plan": "=v1.7.0",
     "@openimis/fe-payment_cycle": "=v1.0.1",
     "@openimis/fe-contract": "=v1.5.1",
-    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/Y-Note-SAS/openimis-fe-language_fr_cmr_csu_js.git#main",
+    "@openimis/fe-language_fr_cmr_csu": "git+https://github.com/Y-Note-SAS/openimis-fe-language_fr_cmr_csu_js.git#test-csu",
     "@openimis/fe-cache": "git+https://github.com/Y-Note-SAS/openimis-fe-cache-manager_js.git#main",
-    "@openimis/fe-medical_controller": "git+https://github.com/Y-Note-SAS/openimis-fe-medical_controller_js.git#test-csu"
+    "@openimis/fe-medical_controller": "git+https://github.com/Y-Note-SAS/openimis-fe-medical_controller_js.git#dev-csu"
   },
   "scripts": {
     "start": "craco start",
